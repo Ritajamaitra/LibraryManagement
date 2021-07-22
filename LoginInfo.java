@@ -23,7 +23,7 @@ public class LoginInfo implements ActionListener{
     JPasswordField userPasswordField = new JPasswordField();
     JLabel userIDLabel = new JLabel("UserName");
     JLabel userPasswordLabel = new JLabel("Password");
-    JLabel messageLabel = new JLabel();
+    JLabel messageLabel = new JLabel("Login System");
     HashMap<String,String> loginInfo = new HashMap<String, String>();
     LoginInfo (HashMap<String,String> loginInfoOriginal){
         loginInfo = loginInfoOriginal;
